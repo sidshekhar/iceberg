@@ -32,7 +32,7 @@ body {
 
 #titlecontainer {
 	background-image: url(../images/title.svg);
-	background-position: center center;
+	background-position: 100% 70%;
 	background-repeat: no-repeat;
 	display: inline-block;
 	position: relative;
@@ -45,6 +45,7 @@ body {
 
 #infocontainer {
 	background-color: white;
+	padding-top: 20px;
 }
 
 #emailform {
