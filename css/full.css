@@ -1,8 +1,12 @@
-/*!
- * Start Bootstrap - Full (https://startbootstrap.com/template-overviews/full)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
- */
+@font-face {
+	font-family: HelveticaMedium;
+	src: url("../fonts/HelveticaNeueLTStd-Md.otf");
+}
+
+@font-face {
+	font-family: HelveticaRoman;
+	src: url("../fonts/HelveticaNeueLTStd-Roman.otf");
+}
 
 body {
 	background: url("../images/backdrop.jpg") no-repeat center center fixed;
@@ -25,10 +29,23 @@ body {
 }
 
 #titlecontainer {
+	background-image: url(../images/title.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
 	display: inline-block;
 	position: relative;
 	width: 100%;
 	padding-bottom: 50%;
 	vertical-align: middle;
 	overflow: hidden;
+	text-align: center;
+}
+
+#emailform {
+	display: inline-block;
+	font-family: HelveticaMedium;
+	position: absolute;
+	top: 55%;
+	right: 0;
+	left: 0;
 }
