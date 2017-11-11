@@ -49,3 +49,24 @@ body {
 	right: 0;
 	left: 0;
 }
+
+#email {
+	padding: 10px 20px 10px 20px;
+	font-size: 18px;
+	width: 500px;
+}
+
+#signup {
+	color: #ffffff;
+	font-size: 18px;
+	background: #8fa3ad;
+	padding: 7px 20px 7px 20px;
+	border: solid #ffffff 3px;
+	text-decoration: none;
+}
+
+#signup:hover {
+	background: #fcfcfc;
+	text-decoration: none;
+	color: grey;
+}
