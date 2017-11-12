@@ -46,6 +46,10 @@ body {
 #infocontainer {
 	background-color: white;
 	padding-top: 20px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 #emailform {
