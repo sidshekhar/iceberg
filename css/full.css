@@ -64,11 +64,21 @@ body {
 	top: 55%;
 	right: 0;
 	left: 0;
-	height: 66.67vh;
 	overflow: hidden;
 }
 
-#email {
+#emailform2 {
+	display: inline-block;
+	font-family: HelveticaRoman;
+	position: absolute;
+	top: 55%;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+.email {
 	padding: 10px 20px 10px 20px;
 	font-size: 18px;
 	width: 500px;
@@ -88,6 +98,22 @@ body {
 	background: #fcfcfc;
 	text-decoration: none;
 	color: grey;
+}
+
+#signup2 {
+	color: #8fa3ad;
+	font-size: 18px;
+	background: white;
+	padding: 7px 20px 7px 20px;
+	border: solid #8fa3ad 2px;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+#signup2:hover {
+	background: #8fa3ad;
+	text-decoration: none;
+	color: white;
 }
 
 #iceberg2 {
