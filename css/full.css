@@ -144,3 +144,15 @@ body {
 	text-decoration: none;
 	color: white;
 }
+
+.footer-text {
+	color: #8fa3ad;
+	font-family: HelveticaRoman;
+	margin-left: auto;
+	margin-right: auto;
+	width: 28em;
+}
+
+.icon {
+	color: black;
+}
