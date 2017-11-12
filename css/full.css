@@ -19,7 +19,7 @@ body {
 	background-size: cover;
 	-o-background-size: cover;
 	padding-top: 70px;
-	font-family: HelveticaRoman;
+	font-family: Helvetica;
 	min-height: 100%;
 }
 
@@ -100,4 +100,20 @@ body {
 	vertical-align: middle;
 	overflow: hidden;
 	text-align: center;
+}
+
+#details {
+	color: #8fa3ad;
+	font-size: 18px;
+	background: white;
+	padding: 7px 20px 7px 20px;
+	border: solid #8fa3ad 2px;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+#details:hover {
+	background: #8fa3ad;
+	text-decoration: none;
+	color: white;
 }
