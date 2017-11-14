@@ -44,12 +44,12 @@ body {
 }
 
 #titlecontainer {
-	background-image: url(../images/title.svg);
-	background-position: 100% 70%;
+	background-image: url(../images/logo_ai.svg);
+	background-position: 100%, 20%;
 	background-repeat: no-repeat;
 	display: inline-block;
 	position: relative;
-	width: 100%;
+	width: 70%;
 	padding-bottom: 50%;
 	vertical-align: middle;
 	overflow: hidden;
@@ -96,9 +96,9 @@ body {
 #signup {
 	color: #ffffff;
 	font-size: 18px;
-	background: #8fa3ad;
+	background: #1daafc;
 	padding: 7px 20px 7px 20px;
-	border: solid #ffffff 3px;
+	border: solid #1daafc 3px;
 	text-decoration: none;
 	letter-spacing: 1px;
 }
@@ -120,13 +120,13 @@ body {
 }
 
 #signup2:hover {
-	background: #8fa3ad;
+	background: #141b1e;
 	text-decoration: none;
 	color: white;
 }
 
 #iceberg2 {
-	background-image: url(../images/berg_poly.svg);
+	background-image: url(../images/vec_berg.svg);
 	background-position: 100% 70%;
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -139,7 +139,7 @@ body {
 }
 
 #details {
-	color: #8fa3ad;
+	color: #141b1e;
 	font-size: 18px;
 	background: white;
 	padding: 7px 20px 7px 20px;
