@@ -44,16 +44,24 @@ body {
 }
 
 #titlecontainer {
-	background-image: url(../images/logo_ai.svg);
-	background-position: 100%, 20%;
+	/*	background-image: url(../images/logo_ai.svg);
+*/
+	background-position: 100%, 40%;
 	background-repeat: no-repeat;
 	display: inline-block;
 	position: relative;
-	width: 70%;
+	width: 100%;
 	padding-bottom: 50%;
 	vertical-align: middle;
 	overflow: hidden;
 	text-align: center;
+}
+
+#subheading {
+	color: white;
+	font-family: Helvetica;
+	font-size: 30px;
+	font-style: thin;
 }
 
 .infocontainer {
