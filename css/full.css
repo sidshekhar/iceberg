@@ -8,6 +8,16 @@ svg {
 }
 
 @font-face {
+	font-family: HelveticaLight;
+	src: url("../fonts/HelveticaNeueLTStd-Lt.otf");
+}
+
+@font-face {
+	font-family: HelveticaHeavy;
+	src: url("../fonts/HelveticaNeueLTStd-Hv.otf");
+}
+
+@font-face {
 	font-family: HelveticaRoman;
 	src: url("../fonts/HelveticaNeueLTStd-Roman.otf");
 }
@@ -57,11 +67,14 @@ body {
 	text-align: center;
 }
 
-#subheading {
+.subheading {
 	color: white;
-	font-family: Helvetica;
+	font-family: HelveticaLight;
 	font-size: 30px;
-	font-style: thin;
+}
+
+.subheading .shit {
+	font-family: HelveticaHeavy;
 }
 
 .infocontainer {
@@ -78,7 +91,7 @@ body {
 	display: inline-block;
 	font-family: HelveticaRoman;
 	position: absolute;
-	top: 55%;
+	margin-top: 25px;
 	right: 0;
 	left: 0;
 	overflow: hidden;
@@ -98,7 +111,7 @@ body {
 .email {
 	padding: 10px 20px 10px 20px;
 	font-size: 18px;
-	width: 500px;
+	width: 20em;
 }
 
 #signup {
