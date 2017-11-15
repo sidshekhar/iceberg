@@ -126,8 +126,15 @@ body {
 }
 
 .insightrow {
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 155px;
+	margin-right: 155px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	.insightrow {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 }
 
 #titlecopyright {
