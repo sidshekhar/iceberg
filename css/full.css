@@ -73,6 +73,7 @@ body {
 
 #disclaimer {
 	width: 77%;
+	font-family: HelveticaLight;
 }
 
 #titleimage {
@@ -381,6 +382,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 45%;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .icon {
