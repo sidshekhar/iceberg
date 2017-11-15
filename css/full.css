@@ -115,6 +115,21 @@ body {
 	display: inline;
 }
 
+.insighttext {
+	font-family: HelveticaLight;
+}
+
+.insightcolumn {
+	color: #959595;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.insightrow {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
 #titlecopyright {
 	font-family: HelveticaLight;
 	color: #959595;
