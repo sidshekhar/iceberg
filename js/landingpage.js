@@ -6,9 +6,9 @@ function thankYou() {
 	}
 }
 
-function activation() {
-	// var activationcode = document.getElementById('invite');
-	// if (activationcode == '3b23c9') {
-	window.location = 'https://www.sidshekhar.com/iceberg/welcome.html';
-	// }
+function Activation() {
+	var activationcode = document.getElementById('invite').value;
+	if (activationcode == '3b23c9') {
+		window.location = 'welcome.html';
+	}
 }
