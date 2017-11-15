@@ -2,6 +2,10 @@ svg {
 	max-height: 100%;
 }
 
+@-ms-viewport {
+	width: device-width;
+}
+
 @font-face {
 	font-family: HelveticaMedium;
 	src: url("../fonts/HelveticaNeueLTStd-Md.otf");
@@ -41,16 +45,12 @@ svg {
 html,
 body {
 	height: 100%;
+	position: relative;
+	overflow-x: hidden;
 }
 
 body {
-	background: white no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	font-family: Helvetica;
-	min-height: 100%;
+	background: white;
 }
 
 .navbar {
@@ -63,12 +63,16 @@ body {
 
 #footer {
 	border-top: thin solid grey;
-	padding: 15px 300px 35px 300px;
-	margin-bottom: 0px;
+	margin-bottom: 5px;
 	font-size: 10px;
 	font-family: HelveticaMedium;
 	color: #8fa3ad;
 	text-align: center;
+	padding-top: 20px;
+}
+
+#disclaimer {
+	width: 77%;
 }
 
 #titleimage {
@@ -100,6 +104,12 @@ body {
 	font-size: 30px;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	.subheading {
+		font-size: 20px;
+	}
+}
+
 #shit {
 	font-family: HelveticaHeavy;
 	display: inline;
@@ -111,6 +121,13 @@ body {
 	font-size: 13px;
 	margin-top: 9em;
 	margin-bottom: 2em;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	#titlecopyright {
+		margin-top: 12em;
+		margin-bottom: 0px;
+	}
 }
 
 .infocontainer {
@@ -145,6 +162,13 @@ body {
 	overflow: hidden;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	#emailform {
+		width: 70%;
+		left: 15%;
+	}
+}
+
 #emailform2 {
 	display: inline-block;
 	font-family: HelveticaRoman;
@@ -154,6 +178,17 @@ body {
 	left: 0;
 	overflow: hidden;
 	background-color: white;
+}
+
+#outrocontainer {
+	text-align: center;
+	margin-top: 220px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	#outrocontainer {
+		margin-top: 0px;
+	}
 }
 
 .email {
@@ -170,6 +205,14 @@ body {
 	border: solid #1daafc 3px;
 	text-decoration: none;
 	letter-spacing: 1px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+	#signup {
+		margin-top: 20px;
+		width: 70%;
+		left: 15%;
+	}
 }
 
 #signup:hover {
@@ -251,7 +294,7 @@ body {
 
 #iceberg2 {
 	background-image: url(../images/vec_berg.svg);
-	background-position: 100% 70%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	display: inline-block;
 	position: relative;
@@ -283,7 +326,7 @@ body {
 	font-family: HelveticaRoman;
 	margin-left: auto;
 	margin-right: auto;
-	width: 30em;
+	width: 45%;
 }
 
 .icon {
