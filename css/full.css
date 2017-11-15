@@ -199,7 +199,7 @@ body {
 	height: 50px;
 }
 
-#signup {
+.signup {
 	color: #ffffff;
 	font-size: 18px;
 	background: #1daafc;
@@ -211,14 +211,14 @@ body {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-	#signup {
+	.signup {
 		margin-top: 20px;
 		width: 70%;
 		left: 15%;
 	}
 }
 
-#signup:hover {
+.signup:hover {
 	background: #fcfcfc;
 	text-decoration: none;
 	color: black;
