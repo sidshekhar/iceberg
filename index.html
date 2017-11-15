@@ -27,6 +27,19 @@
 
 <body>
 
+<div id="thankyoumodal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <center><h2>Thank you!</h2></center>
+          <center><h3>We will be in touch soon.</h3></center>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg">
     <div class="container">
@@ -43,8 +56,8 @@
   <div id="titlecontainer" class="container-fluid"> <object type="image/svg+xml" data="images/logo_ai.svg" width="15%"> </object>
     <div class="subheading">Got Bitcoin? Know your <div class="subheading" id="shit">shit</div> </div>
     <div id="emailform" class="form-inline justify-content-center">
-      <input type="email" class="form-control email" data-error="Please enter a valid email address." placeholder="Enter your email" name="email">
-      <button type="submit" class="signup">SIGN UP</button>
+      <input id="email" type="email" class="form-control email" data-error="Please enter a valid email address." placeholder="Enter your email" name="email">
+      <button type="submit" onclick="thankYou();" class="signup">SIGN UP</button>
       <div class="help-block with-errors"></div>
     </div>
     <p id="titlecopyright"> &copy; 2017 ICEBERG ANALYTICS</p>
@@ -167,8 +180,8 @@
    <div class="row">
     <div class="col-md-12">
       <div id="emailform2" class="form-inline justify-content-center">
-        <input type="email" class="email form-control" data-error="Please enter a valid email address." placeholder="Enter your email" name="email">
-        <button type="submit" class="signup">SIGN UP</button>
+        <input type="email" id="email2" class="email form-control" data-error="Please enter a valid email address." placeholder="Enter your email" name="email">
+        <button type="submit" onclick="thankYou();" class="signup">SIGN UP</button>
         <div class="help-block with-errors"></div>
       </div>
     </div>
