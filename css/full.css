@@ -246,8 +246,10 @@ body {
 .signup:hover {
 	background: #fcfcfc;
 	text-decoration: none;
-	color: black;
-	border-color: #fcfcfc;
+	color: #959595;
+	border-color: #959595;
+	border-width: 1px;
+	line-height: 50%;
 }
 
 #signup2 {
@@ -271,23 +273,27 @@ body {
 
 #invite {
 	border-radius: 0;
-	width: 9em;
+	width: 124px;
+	height: 40px;
 }
 
 #activate {
 	color: #ffffff;
 	font-size: 14px;
 	background: #141b1e;
-	padding: 7px 20px 7px 20px;
+	/*padding: 7px 20px 7px 20px;*/
 	border: solid white 2px;
 	text-decoration: none;
 	letter-spacing: 1px;
-	font-family: HelveticaMedium;
-	margin-left: 10px;
+	font-family: HelveticaLight;
+	margin-left: 8px;
+	height: 40px;
+	width: 104px;
+	text-align: center;
 }
 
 #activate:hover {
-	color: #141b1e;
+	color: #959595;
 	background-color: #ffffff;
 	border-color: #ffffff;
 }
