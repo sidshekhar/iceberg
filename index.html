@@ -10,12 +10,17 @@
   <link rel="shortcut icon" href="images/multi_icon.ico" type="image/x-icon">
   <title>Iceberg</title>
 
+ 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- jQuery -->
   <script src="vendor/jquery/jquery.min.js"></script>
+
+   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+  <script src="js/landingpage.js"></script>
+
 
   <!-- Bootstrap validator code -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" type="text/javascript"> </script>
@@ -57,7 +62,7 @@
     <div class="subheading">Got Bitcoin? Know your <div class="subheading" id="shit">shit</div> </div>
     <div id="emailform" class="form-inline justify-content-center">
       <input id="email" type="email" class="form-control email" data-error="Please enter a valid email address." placeholder="Enter your email" name="email">
-      <button type="submit" onclick="thankYou();" class="signup">SIGN UP</button>
+      <button type="submit" onclick="storedemographics(); thankYou();" class="signup">SIGN UP</button>
       <div class="help-block with-errors"></div>
     </div>
     <p id="titlecopyright"> &copy; 2017 ICEBERG ANALYTICS</p>
@@ -181,7 +186,7 @@
     <div class="col-md-12">
       <div id="emailform2" class="form-inline justify-content-center">
         <input type="email" id="email2" class="email form-control" data-error="Please enter a valid email address." placeholder="Enter your email" name="email">
-        <button type="submit" onclick="thankYou();" class="signup" style="margin-left: 3px">SIGN UP</button>
+        <button type="submit" onclick="thankYou(); storedemographics();" class="signup" style="margin-left: 3px">SIGN UP</button>
         <div class="help-block with-errors"></div>
       </div>
     </div>
@@ -218,7 +223,6 @@
 
 
 <!-- Bootstrap core JavaScript -->
-<script src="js/landingpage.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
