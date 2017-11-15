@@ -221,7 +221,8 @@ body {
 #signup:hover {
 	background: #fcfcfc;
 	text-decoration: none;
-	color: grey;
+	color: black;
+	border-color: #fcfcfc;
 }
 
 #signup2 {
@@ -239,6 +240,7 @@ body {
 	background: #141b1e;
 	text-decoration: none;
 	color: white;
+	border-color: #141b1e;
 }
 
 #invite {
@@ -256,6 +258,12 @@ body {
 	letter-spacing: 1px;
 	font-family: HelveticaMedium;
 	margin-left: 10px;
+}
+
+#activate:hover {
+	color: #141b1e;
+	background-color: #ffffff;
+	border-color: #ffffff;
 }
 
 #bcrisubtitle {
