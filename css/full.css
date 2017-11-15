@@ -166,12 +166,12 @@ body {
 
 #tablecontainer {
 	padding-top: 100px;
-	margin-bottom: -80;
 	min-height: 100%;
 }
 
 #chartcontainer {
 	min-height: 100%;
+	margin-top: 200px;
 }
 
 #emailform {
