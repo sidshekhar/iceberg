@@ -22,6 +22,11 @@ svg {
 	src: url("../fonts/HelveticaNeueLTStd-Roman.otf");
 }
 
+html,
+body {
+	height: 100%;
+}
+
 body {
 	background: #141b1e no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -61,10 +66,11 @@ body {
 	/*	display: inline-block;*/
 	position: relative;
 	width: 100%;
-	padding-bottom: 50%;
+	/*padding-bottom: 50%;*/
 	vertical-align: middle;
 	overflow: hidden;
 	text-align: center;
+	min-height: 100%;
 }
 
 .subheading {
@@ -76,6 +82,14 @@ body {
 #shit {
 	font-family: HelveticaHeavy;
 	display: inline;
+}
+
+#titlecopyright {
+	font-family: HelveticaLight;
+	color: #959595;
+	font-size: 13px;
+	margin-top: 9em;
+	margin-bottom: 2em;
 }
 
 .infocontainer {
@@ -145,6 +159,44 @@ body {
 	background: #141b1e;
 	text-decoration: none;
 	color: white;
+}
+
+#scroll {
+	font-size: 30px;
+	color: white;
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+
+#scroll:hover {
+	opacity: 0.7;
+}
+
+#section08 a {
+	padding-top: 60px;
+}
+#section08 a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 30px;
+	height: 50px;
+	margin-left: -15px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	box-sizing: border-box;
+}
+#section08 a span::before {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	content: '';
+	width: 6px;
+	height: 6px;
+	margin-left: -3px;
+	background-color: #fff;
+	border-radius: 100%;
+	box-sizing: border-box;
 }
 
 #iceberg2 {
