@@ -22,19 +22,39 @@ svg {
 	src: url("../fonts/HelveticaNeueLTStd-Roman.otf");
 }
 
+@keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-30px);
+	}
+	60% {
+		transform: translateY(-15px);
+	}
+}
+
 html,
 body {
 	height: 100%;
 }
 
 body {
-	background: #141b1e no-repeat center center fixed;
+	background: white no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	font-family: Helvetica;
 	min-height: 100%;
+}
+
+.navbar {
+	background: #141b1e;
 }
 
 .navbar-default .navbar-toggler .icon-bar {
@@ -71,6 +91,7 @@ body {
 	overflow: hidden;
 	text-align: center;
 	min-height: 100%;
+	background-color: #141b1e;
 }
 
 .subheading {
@@ -94,12 +115,24 @@ body {
 
 .infocontainer {
 	background-color: white;
-	padding-top: 20px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	min-height: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	min-height: 100%;
+}
+
+#tablecontainer {
 	padding-top: 100px;
+	margin-bottom: -80;
+	min-height: 100%;
+}
+
+#chartcontainer {
+	min-height: 100%;
 }
 
 #emailform {
@@ -161,11 +194,28 @@ body {
 	color: white;
 }
 
+#bcrisubtitle {
+	margin-right: 2em;
+	font-family: HelveticaHeavy;
+	color: #959595;
+	font-size: 22px;
+}
+
+#bcriparagraph {
+	margin-right: 2em;
+	font-family: HelveticaLight;
+	color: #959595;
+	font-size: 19px;
+}
+
 #scroll {
 	font-size: 30px;
 	color: white;
 	margin-top: 3em;
 	margin-bottom: 2em;
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
 }
 
 #scroll:hover {
@@ -213,17 +263,17 @@ body {
 }
 
 #details {
-	color: #141b1e;
+	color: #959595;
 	font-size: 18px;
 	background: white;
 	padding: 7px 20px 7px 20px;
-	border: solid #8fa3ad 2px;
+	border: solid #959595 2px;
 	text-decoration: none;
 	letter-spacing: 1px;
 }
 
 #details:hover {
-	background: #8fa3ad;
+	background: #959595;
 	text-decoration: none;
 	color: white;
 }
