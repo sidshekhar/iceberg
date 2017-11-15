@@ -230,6 +230,7 @@ body {
 	text-decoration: none;
 	letter-spacing: 1px;
 	height: 50px;
+	width: 195px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -256,6 +257,7 @@ body {
 	text-decoration: none;
 	letter-spacing: 1px;
 	height: 50px;
+	width: 195px;
 }
 
 #signup2:hover {
@@ -363,6 +365,8 @@ body {
 	padding: 7px 20px 7px 20px;
 	border: solid #959595 2px;
 	text-decoration: none;
+	height: 50px;
+	width: 195px;
 }
 
 #details:hover {
