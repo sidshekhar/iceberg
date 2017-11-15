@@ -71,9 +71,35 @@ body {
 	padding-top: 20px;
 }
 
+#upperblock-welcome {
+	margin-top: 100px;
+	border-bottom: solid 1px #959595;
+}
+
+.pressrelease {
+	font-family: HelveticaLight;
+}
+
+#letter-address {
+	margin-top: 3%;
+	margin-right: 25%;
+	margin-left: 25%;
+	font-family: HelveticaMedium;
+	font-size: 120px;
+}
+
+.maintextpress {
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-bottom: 7%;
+}
+
 #disclaimer {
 	width: 77%;
 	font-family: HelveticaLight;
+	text-align: left;
+	line-height: 100%;
+	margin-bottom: 35px;
 }
 
 #titleimage {
