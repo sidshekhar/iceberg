@@ -1,3 +1,21 @@
+$(document).ready(function() {
+	$('#details').on('click', function(event) {
+		$('html,body').animate(
+			{
+				scrollTop: $('#emailform2').offset().top
+			},
+			2000
+		);
+	});
+
+	$('#typeit').typeIt({
+		strings: ['BTC?', 'ETH?', 'LTC?', 'BTC?'],
+		speed: 100,
+		breakLines: false,
+		autoStart: false
+	});
+});
+
 // Initialize Firebase
 var config = {
 	apiKey: 'AIzaSyB8D7-PWtBjp8GwdxUCZEIJftbLuMSzv8E',
@@ -57,12 +75,3 @@ function Activation() {
 		window.location = 'welcome.html';
 	}
 }
-
-$('#details').on('click', function(event) {
-	$('html,body').animate(
-		{
-			scrollTop: $('#email2').offset().top
-		},
-		2000
-	);
-});

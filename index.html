@@ -16,10 +16,13 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- jQuery -->
-  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
 
    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
   <script src="js/landingpage.js"></script>
+
 
 
   <!-- Bootstrap validator code -->
@@ -59,7 +62,7 @@
 
   <!-- Title Content -->
   <div id="titlecontainer" class="container-fluid"> <object type="image/svg+xml" data="images/logo_ai.svg" width="15%"> </object>
-    <div class="subheading">Got Bitcoin? Know your <div class="subheading" id="shit">shit</div> </div>
+    <div class="subheading">Got <p style="display: inline-block;"  id="typeit"></p> Know your <div class="subheading" id="shit">shit</div> </div>
     <div id="emailform" class="form-inline justify-content-center">
       <input id="email" type="email" class="form-control email" data-error="Please enter a valid email address." placeholder="Enter your email" name="email">
       <button type="submit" onclick="storedemographics(); thankYou();" class="signup">SIGN UP</button>
